@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class SceneControll : MonoBehaviour
 {
@@ -17,7 +18,12 @@ public class SceneControll : MonoBehaviour
             DontDestroyOnLoad(this.gameObject);
         }
         else
-            Destroy(this.gameObject);               
+            Destroy(this.gameObject);
+
+
+        // tmp
+        //player.GetComponent<ActionBasedContinuousMoveProvider>().enabled = false;
+        //player.GetComponent<ActionBasedContinuousTurnProvider>().enabled = false;
     }
 
 

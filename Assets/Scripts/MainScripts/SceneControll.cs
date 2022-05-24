@@ -21,20 +21,25 @@ public class SceneControll : MonoBehaviour
     }
 
 
-    void SavePosition()
+    public void SavePosition()
     {
-        savePosition.position = player.transform.position;
+        player.GetComponent<Rigidbody>().useGravity = false;
+        player.GetComponent<Rigidbody>().freezeRotation = true;
+        
+        savePosition.transform.position = player.transform.position;
     }
 
     public void SetPosition()
     {
-        player.transform.position = savePosition.position;
+        player.GetComponent<Rigidbody>().useGravity = true;
+        player.GetComponent<Rigidbody>().freezeRotation = false;
     }
 
 
     public void LoadCafeteriaScene()
     {
         SceneManager.LoadScene("CafeteriaScene");
+        player.GetComponent<Rigidbody>().useGravity = false;
     }
 
     public void LoadMainScene()

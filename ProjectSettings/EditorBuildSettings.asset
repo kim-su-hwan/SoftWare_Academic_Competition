@@ -14,4 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayScene/CafeteriaScene.unity
     guid: 85074e73b410a6146b076572d87dd99f
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 53403bb7b089482438eaaf6acbcd6e8b,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0d26ce7edcc2e944383c847cc8763da5,
+      type: 2}

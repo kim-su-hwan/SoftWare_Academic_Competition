@@ -48,7 +48,7 @@ public class UIManager : MonoBehaviour
     //다음 씬으로 넘어가는 버튼
     public void LoadGameScene()
     {
-        SceneManager.LoadScene("MainPlayScene");
+        SceneManager.LoadScene("SampleScene");
     }
     public void GameQuit()
     {

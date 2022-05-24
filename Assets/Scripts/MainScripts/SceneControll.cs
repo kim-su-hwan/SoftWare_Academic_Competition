@@ -34,7 +34,12 @@ public class SceneControll : MonoBehaviour
 
     public void LoadCafeteriaScene()
     {
-        SceneManager.LoadScene("CafeteiaScene");
+        SceneManager.LoadScene("CafeteriaScene");
+    }
+
+    public void LoadMainScene()
+    {
+        SceneManager.LoadScene("SampleScene");
     }
 
 }

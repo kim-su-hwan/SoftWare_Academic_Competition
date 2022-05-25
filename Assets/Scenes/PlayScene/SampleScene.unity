@@ -22557,7 +22557,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2000716928}
-        m_MethodName: SetPosition
+        m_MethodName: LockingPlayer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -77087,17 +77087,17 @@ PrefabInstance:
     - target: {fileID: 3991118332041895530, guid: 7fac25a92d833c74aa88c37f671e2732,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.591
+      value: -11.03
       objectReference: {fileID: 0}
     - target: {fileID: 3991118332041895530, guid: 7fac25a92d833c74aa88c37f671e2732,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.104
+      value: 1.144
       objectReference: {fileID: 0}
     - target: {fileID: 3991118332041895530, guid: 7fac25a92d833c74aa88c37f671e2732,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.964
+      value: 14.677
       objectReference: {fileID: 0}
     - target: {fileID: 3991118332041895530, guid: 7fac25a92d833c74aa88c37f671e2732,
         type: 3}

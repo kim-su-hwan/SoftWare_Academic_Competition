@@ -5,9 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class SceneQuit : MonoBehaviour
 {
+    [SerializeField] private GameObject menuCanvas;
+
+    public void OnMenuCanvas()
+    {
+        menuCanvas.SetActive(true);
+    }
+    public void OffMenuCanvas()
+    {
+        menuCanvas.SetActive(false);
+    }
+
     public void LoadMainScene()
     {
-        Debug.Log("loadmainscene");
+        SceneControll.scene_instance.ReleasePlayer();
         SceneManager.LoadScene("SampleScene");
     }
 }

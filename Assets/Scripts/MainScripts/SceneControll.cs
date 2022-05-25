@@ -48,6 +48,10 @@ public class SceneControll : MonoBehaviour
         //player.GetComponent<Rigidbody>().useGravity = false;
     }
 
+    public void LoadGunJaBookStore()
+    {
+        SceneManager.LoadScene("GunJaBookStoreScene");
+    }
     public void LoadMainScene()
     {
         SceneManager.LoadScene("SampleScene");

@@ -13,7 +13,10 @@ EditorBuildSettings:
     guid: d3e1128b247ce2c48a18a74c02e37e30
   - enabled: 1
     path: Assets/Scenes/PlayScene/CafeteriaScene.unity
-    guid: 85074e73b410a6146b076572d87dd99f
+    guid: ccfb799ff36f1bf40b1a88184617d6c5
+  - enabled: 1
+    path: Assets/Scenes/PlayScene/GunJaBookStoreScene.unity
+    guid: 935bb6d34a01ac8448f84919f2c88a87
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 53403bb7b089482438eaaf6acbcd6e8b,
       type: 2}

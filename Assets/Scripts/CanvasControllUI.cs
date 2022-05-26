@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CanvasControllUI : MonoBehaviour
 {
@@ -10,11 +11,11 @@ public class CanvasControllUI : MonoBehaviour
 
     private void Start()
     {
-        BaseUI.SetActive(true);
-        foreach(var ui in UISet)
+        foreach (var ui in UISet)
         {
             ui.SetActive(false);
         }
+        BaseUI.SetActive(true);
         uiIndex.Push(0);
     }
 
@@ -42,5 +43,10 @@ public class CanvasControllUI : MonoBehaviour
             UISet[uiIndex.Pop()].SetActive(false);
         }
         UISet[uiIndex.Peek()].SetActive(true);
+    }
+
+    public void Exit()
+    {
+        SceneManager.LoadScene("SchoolScene");
     }
 }

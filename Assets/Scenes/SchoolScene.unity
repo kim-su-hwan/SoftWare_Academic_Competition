@@ -16780,7 +16780,7 @@ RectTransform:
   m_GameObject: {fileID: 377454757}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.5522, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 993261123}
   m_RootOrder: 0
@@ -39380,7 +39380,7 @@ RectTransform:
   m_GameObject: {fileID: 993261122}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.22797188, y: 0.406548, z: 0.40654802}
+  m_LocalScale: {x: 0.1179802, y: 0.55170196, z: 0.55170196}
   m_Children:
   - {fileID: 377454758}
   m_Father: {fileID: 1296058482}
@@ -39388,7 +39388,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -25.2}
+  m_AnchoredPosition: {x: 32.8, y: -29.9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &993261124
@@ -44690,7 +44690,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.1, y: 26.349033}
+  m_AnchoredPosition: {x: -3.1, y: 27.9}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1132358443
@@ -44713,7 +44713,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\uD559\uC0DD\uD68C\uAD00\uC73C\uB85C \uB4E4\uC5B4\uAC00\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?\n1.
-    \uD559\uC0DD\uC2DD\uB2F9\n2. \uC99D\uBA85\uC11C \uBC1C\uAE09\n3. \uC81C\uC8FC\uBAB0\uBE75"
+    \uD559\uC0DD\uC2DD\uB2F9 (\uC9C0\uD5581\uCE35)\n2. \uC99D\uBA85\uC11C \uBC1C\uAE09\uAE30
+    (\uC9C0\uD5581\uCE35)\n3. \uC74C\uC2DD\uC810 (1\uCE35)\n4. \uC81C\uC8FC\uBAB0\uBE75
+    (2\uCE35)\n5. \uB3D9\uC544\uB9AC\uBC29 (2~5\uCE35)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a76af3e85136b07478db3c93acb0a1ee, type: 2}
   m_sharedMaterial: {fileID: 8298409971947650094, guid: a76af3e85136b07478db3c93acb0a1ee,
@@ -44723,8 +44725,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -44748,7 +44750,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0

@@ -5,6 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    private List<string> iventory_name = new List<string>();
+    private List<int> iventory_count = new List<int>();
 
     [HideInInspector] public static int money = 0;
 
@@ -43,4 +45,21 @@ public class GameManager : MonoBehaviour
         return money;
     }
 
+    public void GetIven(string item_name)
+    {
+        bool check_same = false;
+        for(int i =0;i<iventory_name.Count;i++)
+        {
+            if(item_name == iventory_name[i])
+            {
+                iventory_count[i]++;
+                check_same = true;
+            }
+        }
+        if(check_same==false)
+        {
+            iventory_name.Add(item_name);
+            iventory_count.Add(1);
+        }
+    }
 }

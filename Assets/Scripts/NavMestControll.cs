@@ -56,6 +56,9 @@ public class NavMestControll : MonoBehaviour
                 destinations.Enqueue(schedule);
             }
         }
+        //테스트 케이스
+        destinations.Enqueue("gunja");
+        MoveToNextDestination();
     }
 
 

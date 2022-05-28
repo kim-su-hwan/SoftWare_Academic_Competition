@@ -37,6 +37,7 @@ public class NavMestControll : MonoBehaviour
     [SerializeField] private GameObject YoungDeok;
     [SerializeField] private GameObject DaeYang;
     [SerializeField] private GameObject AejiHeon;
+    [SerializeField] private GameObject DongCheon;
     [SerializeField] private GameObject ChungMuAndYulGok;
     [SerializeField] private GameObject YoungSil;
     [SerializeField] private GameObject JipHyeon;
@@ -91,6 +92,8 @@ public class NavMestControll : MonoBehaviour
                 return DaeYang;
             case "aejiheon":
                 return AejiHeon;
+            case "dongcheon":
+                return DongCheon;
             case "chungmuandyulgok":
                 return ChungMuAndYulGok;
             case "youngsil":

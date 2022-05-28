@@ -63,7 +63,6 @@ public class NavMestControll : MonoBehaviour
         if(destinations.Count >0)
         {
             string name = destinations.Dequeue();
-
             agent.SetDestination(BuildingName(name).transform.position);
         }
     }

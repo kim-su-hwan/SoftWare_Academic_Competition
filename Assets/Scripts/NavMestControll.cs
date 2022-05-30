@@ -49,16 +49,26 @@ public class NavMestControll : MonoBehaviour
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        //if (GameManager.instance.scheduleList.Count > 0)
-        //{
-        //    foreach (var schedule in GameManager.instance.scheduleList)
-        //    {
-        //        destinations.Enqueue(schedule);
-        //    }
-        //}
+        if (GameManager.instance != null)
+        {
+            if (GameManager.instance.scheduleList.Count > 0)
+            {
+                foreach (var schedule in GameManager.instance.scheduleList)
+                {
+                    destinations.Enqueue(schedule);
+                }
+            }
+        }
         //테스트 케이스
+        //destinations.Enqueue("gunja");
+        //MoveToNextDestination();
+        TestNav();
+    }
+
+    private void TestNav()
+    {
+        destinations.Enqueue("ai_center");
         destinations.Enqueue("gunja");
-        MoveToNextDestination();
     }
 
 

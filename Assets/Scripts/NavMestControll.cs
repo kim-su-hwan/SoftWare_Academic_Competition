@@ -42,7 +42,7 @@ public class NavMestControll : MonoBehaviour
     [SerializeField] private GameObject YoungSil;
     [SerializeField] private GameObject JipHyeon;
 
-
+    private bool isUsingNevMesh = false;
     private NavMeshAgent agent;
     private Queue<string> destinations = new Queue<string>();
 
@@ -69,7 +69,7 @@ public class NavMestControll : MonoBehaviour
 
     private void checkArrive()
     {
-        if(agent.remainingDistance <0.5f)
+        if(agent.remainingDistance <0.5f||isUsingNevMesh == true)
         {
             agent.enabled = false;
         }
@@ -77,6 +77,7 @@ public class NavMestControll : MonoBehaviour
 
     public void MoveToNextDestination()
     {
+        isUsingNevMesh = true;
         agent.enabled = true;
         if(destinations.Count >0)
         {

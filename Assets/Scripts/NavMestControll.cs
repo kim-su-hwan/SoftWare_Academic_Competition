@@ -60,25 +60,24 @@ public class NavMestControll : MonoBehaviour
                 }                
             }
         }
-        //테스트 케이스
-        //destinations.Enqueue("gunja");
-        //MoveToNextDestination();
-        //TestNav();
     }
 
-    private void TestNav()
+    private void Update()
     {
-        destinations.Enqueue("ai_center");
-        destinations.Enqueue("gunja");
+        checkArrive();
     }
 
+    private void checkArrive()
+    {
+        if(agent.remainingDistance <0.5f)
+        {
+            agent.enabled = false;
+        }
+    }
 
     public void MoveToNextDestination()
     {
-        if(destinations.Count == 0)
-        {
-            agent.isStopped = true;
-        }
+        agent.enabled = true;
         if(destinations.Count >0)
         {
             string name = destinations.Dequeue();

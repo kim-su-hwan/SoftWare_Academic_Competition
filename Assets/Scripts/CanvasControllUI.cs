@@ -47,6 +47,6 @@ public class CanvasControllUI : MonoBehaviour
 
     public void Exit()
     {
-        SceneManager.LoadScene("GamePlayScene");
+        SceneManager.LoadScene("SchoolScene");
     }
 }

@@ -21,48 +21,52 @@ public class FunctionArrow : MonoBehaviour
     private List<GameObject> arrows = new List<GameObject>();
     //원하는 위치 생성
 
-    //[SerializeField] private GameObject GangGae;
+    [SerializeField] private GameObject GangGae;
     [SerializeField] private GameObject Student;
-    //[SerializeField] private GameObject AI_Center;
-    //[SerializeField] private GameObject Sejong;
-    //[SerializeField] private GameObject GunJa;
-    //[SerializeField] private GameObject JinKwan;
-    //[SerializeField] private GameObject DongCheon;
-    //[SerializeField] private GameObject ChungMuAndYulGok;
-    //[SerializeField] private GameObject YoungSil;
+    [SerializeField] private GameObject AI_Center;
+    [SerializeField] private GameObject GunJa;
+    [SerializeField] private GameObject JinKwan;
+    [SerializeField] private GameObject DongCheon;
+    [SerializeField] private GameObject ChungMuAndYulGok;
 
     public void setFunctionPrint()
     {
+        DestroyArrow();
         functions = SchoolFunctions.Print;
         SchoolFunction(functions);
     }
 
     public void setFunctionCafe()
     {
+        DestroyArrow();
         functions = SchoolFunctions.Cafe;
         SchoolFunction(functions);
     }
 
     public void setFunctionCafeteria()
     {
+        DestroyArrow();
         functions = SchoolFunctions.Cafeteria;
         SchoolFunction(functions);
     }
 
     public void setFunctionCertification()
     {
+        DestroyArrow();
         functions = SchoolFunctions.Certification;
         SchoolFunction(functions);
     }
 
     public void setFunctionBookstore()
     {
+        DestroyArrow();
         functions = SchoolFunctions.BookStore;
         SchoolFunction(functions);
     }
 
     public void setFunctionConvenienceStore()
     {
+        DestroyArrow();
         functions = SchoolFunctions.ConvenienceStore;
         SchoolFunction(functions);
     }
@@ -74,17 +78,31 @@ public class FunctionArrow : MonoBehaviour
             case SchoolFunctions.Nothing:
                 break;
             case SchoolFunctions.Print:
+                InstantiationArrow(GangGae);
+                InstantiationArrow(ChungMuAndYulGok);
+                InstantiationArrow(GunJa);
                 break;
             case SchoolFunctions.Cafe:
                 InstantiationArrow(Student);
+                InstantiationArrow(AI_Center);
+                InstantiationArrow(GangGae);
+                InstantiationArrow(DongCheon);
+                InstantiationArrow(ChungMuAndYulGok);
                 break;
             case SchoolFunctions.Cafeteria:
+                InstantiationArrow(Student);
+                InstantiationArrow(JinKwan);
                 break;
             case SchoolFunctions.Certification:
+                InstantiationArrow(Student);
                 break;
             case SchoolFunctions.BookStore:
+                InstantiationArrow(GunJa);
                 break;
             case SchoolFunctions.ConvenienceStore:
+                InstantiationArrow(AI_Center);
+                InstantiationArrow(GangGae);
+                InstantiationArrow(ChungMuAndYulGok);
                 break;
             default:
                 break;
@@ -103,6 +121,7 @@ public class FunctionArrow : MonoBehaviour
         {
             Destroy(obj);
         }
+        arrows.Clear();
     }
     private void OnArrow()
     {

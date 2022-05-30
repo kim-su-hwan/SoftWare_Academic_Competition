@@ -75,6 +75,10 @@ public class NavMestControll : MonoBehaviour
 
     public void MoveToNextDestination()
     {
+        if(destinations.Count == 0)
+        {
+            agent.isStopped = true;
+        }
         if(destinations.Count >0)
         {
             string name = destinations.Dequeue();

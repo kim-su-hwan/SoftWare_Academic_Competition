@@ -42,9 +42,10 @@ public class NavMestControll : MonoBehaviour
     [SerializeField] private GameObject YoungSil;
     [SerializeField] private GameObject JipHyeon;
 
-    private bool isUsingNevMesh = false;
-    private NavMeshAgent agent;
+
+    public NavMeshAgent agent;
     private Queue<string> destinations = new Queue<string>();
+    private bool isDoing = false;
 
     private void Start()
     {
@@ -57,7 +58,7 @@ public class NavMestControll : MonoBehaviour
                 {
                     destinations.Enqueue(schedule);
                     Debug.Log(schedule);
-                }                
+                }
             }
         }
     }
@@ -65,22 +66,35 @@ public class NavMestControll : MonoBehaviour
     private void Update()
     {
         checkArrive();
+
     }
 
     private void checkArrive()
     {
-        if(agent.remainingDistance <0.5f||isUsingNevMesh == true)
+        if (isDoing)
         {
-            agent.enabled = false;
+            if (!agent.pathPending)
+            {
+                if (agent.remainingDistance <= agent.stoppingDistance)
+                {
+                    if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
+                    {
+                        isDoing = false;
+                        agent.ResetPath();
+                    }
+                }
+            }
         }
     }
 
     public void MoveToNextDestination()
     {
-        isUsingNevMesh = true;
-        agent.enabled = true;
-        if(destinations.Count >0)
+        if (destinations.Count == 0)
+            return;
+
+        if (destinations.Count > 0)
         {
+            isDoing = true;
             string name = destinations.Dequeue();
             agent.SetDestination(BuildingName(name).transform.position);
         }
@@ -88,7 +102,7 @@ public class NavMestControll : MonoBehaviour
 
     private GameObject BuildingName(string name)
     {
-        switch(name)
+        switch (name)
         {
             case "maingate":
                 return MainGate;

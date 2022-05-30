@@ -6852,6 +6852,7 @@ MonoBehaviour:
   ChungMuAndYulGok: {fileID: 203690753}
   YoungSil: {fileID: 1096606215}
   JipHyeon: {fileID: 93175125}
+  agent: {fileID: 0}
 --- !u!195 &433935130
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -18040,7 +18041,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -491, y: -208}
+  m_AnchoredPosition: {x: -445, y: -208}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1148951431
@@ -33103,7 +33104,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2021056216}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0007527103}
   m_LocalScale: {x: 1.3473909, y: 2.5650513, z: 16.889242}
   m_Children:
   - {fileID: 1370358224}
@@ -33112,7 +33113,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -492, y: 210}
+  m_AnchoredPosition: {x: -445.9993, y: 210}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2021056218
@@ -33158,6 +33159,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 49907725}
+        m_MethodName: OnNavMesh
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 433935129}
         m_MethodName: MoveToNextDestination
         m_Mode: 1

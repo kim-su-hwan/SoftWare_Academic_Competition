@@ -56,13 +56,14 @@ public class NavMestControll : MonoBehaviour
                 foreach (var schedule in GameManager.instance.scheduleList)
                 {
                     destinations.Enqueue(schedule);
-                }
+                    Debug.Log(schedule);
+                }                
             }
         }
         //테스트 케이스
         //destinations.Enqueue("gunja");
         //MoveToNextDestination();
-        TestNav();
+        //TestNav();
     }
 
     private void TestNav()

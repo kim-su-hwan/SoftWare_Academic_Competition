@@ -13,6 +13,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject MoneySettingUI;
     [SerializeField] private GameObject ScheduleSettingUI;
     [SerializeField] private TMP_Text MyMoneyUI;
+
     private void Awake()
     {
         if (ui_instance == null)
@@ -58,4 +59,15 @@ public class UIManager : MonoBehaviour
     {
         MyMoneyUI.text = $"현재 나의 돈 : {GameManager.instance.GetMoney()}";
     }
+
+    public void OnUI(GameObject ui)
+    {
+        ui.SetActive(true);
+    }
+    public void OffUI(GameObject ui)
+    {
+        ui.SetActive(false);
+    }
+
+
 }

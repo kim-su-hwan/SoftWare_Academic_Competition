@@ -355,12 +355,23 @@ MonoBehaviour:
           m_StringArgument: ganggae
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 344883079}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OnUI
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1768936864}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OffUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634757290}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -630,12 +641,23 @@ MonoBehaviour:
           m_StringArgument: sejong
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 344883079}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OnUI
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1768936864}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OffUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634757290}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2032,12 +2054,23 @@ MonoBehaviour:
           m_StringArgument: gunja
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 344883079}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OnUI
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1768936864}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OffUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634757290}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2314,12 +2347,23 @@ MonoBehaviour:
           m_StringArgument: jinkwan
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 344883079}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OnUI
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1768936864}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OffUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634757290}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2857,12 +2901,23 @@ MonoBehaviour:
           m_StringArgument: chungmuandyulgok
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 344883079}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OnUI
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1768936864}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OffUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634757290}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3400,12 +3455,23 @@ MonoBehaviour:
           m_StringArgument: ai_center
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 344883079}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OnUI
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1768936864}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OffUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634757290}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3541,12 +3607,23 @@ MonoBehaviour:
           m_StringArgument: jiphyeon
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 344883079}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OnUI
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1768936864}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OffUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634757290}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3730,7 +3807,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &858950539
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4563,12 +4640,23 @@ MonoBehaviour:
           m_StringArgument: student
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 344883079}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OnUI
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1768936864}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OffUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634757290}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5593,12 +5681,23 @@ MonoBehaviour:
           m_StringArgument: aejiheon
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 344883079}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OnUI
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1768936864}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OffUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634757290}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5864,12 +5963,23 @@ MonoBehaviour:
           m_StringArgument: dongcheon
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 344883079}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OnUI
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1768936864}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OffUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634757290}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6535,12 +6645,23 @@ MonoBehaviour:
           m_StringArgument: youngsil
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 344883079}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OnUI
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1768936864}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OffUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634757290}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7343,12 +7464,23 @@ MonoBehaviour:
           m_StringArgument: daeyang
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 344883079}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OnUI
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1768936864}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OffUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634757290}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8346,7 +8478,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2087232216
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8569,12 +8701,23 @@ MonoBehaviour:
           m_StringArgument: chungmuandyulgok
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 344883079}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OnUI
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 1768936864}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 344883080}
+        m_MethodName: OffUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1634757290}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

@@ -84,10 +84,6 @@ public class FuctionArrow : MonoBehaviour
         arrow.SetActive(true);
     }
 
-    private void OffArrow()
-    {
-        arrow.SetActive(false);
-    }
 
 
 }

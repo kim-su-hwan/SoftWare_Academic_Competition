@@ -352,7 +352,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: ganggae
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 344883079}
@@ -627,7 +627,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: sejong
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 344883079}
@@ -1895,7 +1895,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: gunja
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 344883079}
@@ -2177,7 +2177,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: jinkwan
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 344883079}
@@ -2720,7 +2720,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: chungmuandyulgok
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 344883079}
@@ -3263,7 +3263,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: ai_center
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 344883079}
@@ -3404,7 +3404,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: jiphyeon
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 344883079}
@@ -4425,7 +4425,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: student
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 344883079}
@@ -5180,7 +5180,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: aejiheon
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 344883079}
@@ -5321,7 +5321,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: dongcheon
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 344883079}
@@ -5858,7 +5858,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: youngsil
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 344883079}
@@ -6628,7 +6628,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: daeyang
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 344883079}
@@ -7854,7 +7854,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: chungmuandyulgok
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 344883079}

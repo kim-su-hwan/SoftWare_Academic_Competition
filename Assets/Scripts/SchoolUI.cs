@@ -23,4 +23,40 @@ public class SchoolUI : MonoBehaviour
         playerPosData.PlayerPosSave();
         SceneManager.LoadScene("Gunja");
     }
+
+    public void LoadGanggaeScene()
+    {
+        playerPosData.PlayerPosSave();
+        SceneManager.LoadScene("Ganggae");
+    }
+
+    public void LoadAICenterScene()
+    {
+        playerPosData.PlayerPosSave();
+        SceneManager.LoadScene("AI");
+    }
+
+    public void LoadJinkwanScene()
+    {
+        playerPosData.PlayerPosSave();
+        SceneManager.LoadScene("Jinkwan");
+    }
+
+    public void LoadDongcheonScene()
+    {
+        playerPosData.PlayerPosSave();
+        SceneManager.LoadScene("Dongcheon");
+    }
+
+    public void LoadYulgokScene()
+    {
+        playerPosData.PlayerPosSave();
+        SceneManager.LoadScene("Yulgok");
+    }
+
+    public void LoadChungmuScene()
+    {
+        playerPosData.PlayerPosSave();
+        SceneManager.LoadScene("Chungmu");
+    }
 }

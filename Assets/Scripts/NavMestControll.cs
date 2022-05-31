@@ -57,7 +57,7 @@ public class NavMestControll : MonoBehaviour
                 foreach (var schedule in GameManager.instance.scheduleList)
                 {
                     destinations.Enqueue(schedule);
-                    Debug.Log(schedule);
+                    //Debug.Log(schedule);
                 }
             }
         }

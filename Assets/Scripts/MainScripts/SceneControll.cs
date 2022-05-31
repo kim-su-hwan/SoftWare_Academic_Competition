@@ -19,28 +19,7 @@ public class SceneControll : MonoBehaviour
         }
         else
             Destroy(this.gameObject);
-
-
-        // tmp
-        //player.GetComponent<ActionBasedContinuousMoveProvider>().enabled = false;
-        //player.GetComponent<ActionBasedContinuousTurnProvider>().enabled = false;
     }
-
-
-    public void SavePosition()
-    {
-        //player.GetComponent<Rigidbody>().useGravity = false;
-        //player.GetComponent<Rigidbody>().freezeRotation = true;
-        
-        //savePosition.transform.position = player.transform.position;
-    }
-
-    public void SetPosition()
-    {
-        //player.GetComponent<Rigidbody>().useGravity = true;
-        //player.GetComponent<Rigidbody>().freezeRotation = false;
-    }
-
 
     public void LoadCafeteriaScene()
     {

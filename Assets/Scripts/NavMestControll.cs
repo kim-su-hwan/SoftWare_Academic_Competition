@@ -42,9 +42,13 @@ public class NavMestControll : MonoBehaviour
     [SerializeField] private GameObject YoungSil;
     [SerializeField] private GameObject JipHyeon;
 
+    [SerializeField] private GameObject schedule;
 
-    public NavMeshAgent agent;
+    [HideInInspector] public NavMeshAgent agent;
     private Queue<string> destinations = new Queue<string>();
+    public Queue<string> Destinations => destinations;
+    private string name;
+    public string Name => name;
     private bool isDoing = false;
 
     private void Start()
@@ -81,6 +85,7 @@ public class NavMestControll : MonoBehaviour
                     {
                         isDoing = false;
                         agent.ResetPath();
+                        schedule.GetComponent<ShowSchedule>().UpdateSchedule();
                     }
                 }
             }
@@ -95,7 +100,7 @@ public class NavMestControll : MonoBehaviour
         if (destinations.Count > 0)
         {
             isDoing = true;
-            string name = destinations.Dequeue();
+            name = destinations.Dequeue();
             agent.SetDestination(BuildingName(name).transform.position);
         }
     }
@@ -138,17 +143,3 @@ public class NavMestControll : MonoBehaviour
 
     }
 }
-
-//[SerializeField] private GameObject MainGate;
-//[SerializeField] private GameObject GangGae;
-//[SerializeField] private GameObject Student;
-//[SerializeField] private GameObject AI_Center;
-//[SerializeField] private GameObject Sejong;
-//[SerializeField] private GameObject GunJa;
-//[SerializeField] private GameObject JinKwan;
-//[SerializeField] private GameObject YoungDeok;
-//[SerializeField] private GameObject DaeYang;
-//[SerializeField] private GameObject AejiHeon;
-//[SerializeField] private GameObject ChungMuAndYulGok;
-//[SerializeField] private GameObject YoungSil;
-//[SerializeField] private GameObject JipHyeon;

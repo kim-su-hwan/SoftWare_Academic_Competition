@@ -6590,6 +6590,7 @@ MonoBehaviour:
   ChungMuAndYulGok: {fileID: 203690753}
   YoungSil: {fileID: 1096606215}
   JipHyeon: {fileID: 93175125}
+  schedule: {fileID: 2021056216}
   agent: {fileID: 0}
 --- !u!195 &433935130
 NavMeshAgent:
@@ -26488,6 +26489,7 @@ GameObject:
   - component: {fileID: 1500529598}
   - component: {fileID: 1500529599}
   - component: {fileID: 1500529600}
+  - component: {fileID: 1500529601}
   m_Layer: 5
   m_Name: ScreenCanvas
   m_TagString: Untagged
@@ -26625,6 +26627,20 @@ MonoBehaviour:
   UISet:
   - {fileID: 1726108960}
   - {fileID: 1100082721}
+--- !u!114 &1500529601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500529593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845fe5df8c1d8404ca22955dbacaf5dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 433935127}
+  schedule: {fileID: 1370358225}
 --- !u!1 &1501450639
 GameObject:
   m_ObjectHideFlags: 0
@@ -35322,6 +35338,7 @@ GameObject:
   - component: {fileID: 2021056220}
   - component: {fileID: 2021056219}
   - component: {fileID: 2021056218}
+  - component: {fileID: 2021056221}
   m_Layer: 5
   m_Name: Schedule
   m_TagString: Untagged
@@ -35392,17 +35409,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 49907725}
-        m_MethodName: OnNavMesh
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 433935129}
         m_MethodName: MoveToNextDestination
         m_Mode: 1
@@ -35451,6 +35457,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2021056216}
   m_CullTransparentMesh: 0
+--- !u!114 &2021056221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021056216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845fe5df8c1d8404ca22955dbacaf5dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 433935127}
+  schedule: {fileID: 1370358225}
 --- !u!1 &2025488302 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1992890226193455072, guid: 2a8a9098484f8214f893debd6450164f,

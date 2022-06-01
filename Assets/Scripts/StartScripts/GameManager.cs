@@ -38,10 +38,8 @@ public class GameManager : MonoBehaviour
 
     public void ReduceMoney(int amount)
     {
-        money -= amount;
-        if (money <= 0)
-            money = 0;
-        Debug.Log(money);
+        if (money >= amount)
+            money -= amount;
     }
 
     public int GetMoney()

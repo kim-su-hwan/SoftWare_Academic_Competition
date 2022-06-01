@@ -17,6 +17,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gunja.unity
     guid: f6f677338360e0b43a7900936dba0bad
+  - enabled: 1
+    path: Assets/Scenes/AI.unity
+    guid: 44da1814d9d53c54da015fa9285e812d
+  - enabled: 1
+    path: Assets/Scenes/Chungmu.unity
+    guid: 2a9b8353582fc7d40b1b58658ecbb216
+  - enabled: 1
+    path: Assets/Scenes/Dongcheon.unity
+    guid: cdde664bf651f5e489773c1657444f87
+  - enabled: 1
+    path: Assets/Scenes/Ganggae.unity
+    guid: e494bc4d6576ea24a9e0784d6b00a18d
+  - enabled: 1
+    path: Assets/Scenes/Jinkwan.unity
+    guid: 2f23c60f32c8805498b163298bfc1639
+  - enabled: 1
+    path: Assets/Scenes/Yulgok.unity
+    guid: 597b3f7ddb792f845b7728c9079bc9ae
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 53403bb7b089482438eaaf6acbcd6e8b,
       type: 2}

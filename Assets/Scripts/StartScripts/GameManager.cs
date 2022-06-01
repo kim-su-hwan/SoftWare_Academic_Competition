@@ -41,6 +41,7 @@ public class GameManager : MonoBehaviour
         money -= amount;
         if (money <= 0)
             money = 0;
+        Debug.Log(money);
     }
 
     public int GetMoney()
@@ -69,6 +70,15 @@ public class GameManager : MonoBehaviour
     public void AddSchedule(string name)
     {
         scheduleList.Add(name);
+    }
+
+    public void OnApplicationQuit()
+    {
+        PlayerPrefs.DeleteKey("p_x");
+        PlayerPrefs.DeleteKey("p_y");
+        PlayerPrefs.DeleteKey("p_z");
+        PlayerPrefs.DeleteKey("TimeToLoad");
+        PlayerPrefs.DeleteKey("Saved");
     }
 
 }

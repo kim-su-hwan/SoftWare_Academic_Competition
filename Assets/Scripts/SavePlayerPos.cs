@@ -37,8 +37,4 @@ public class SavePlayerPos : MonoBehaviour
         PlayerPrefs.SetInt("TimeToLoad", 1);
         PlayerPrefs.Save();
     }
-    public void OnNavMesh()
-    {
-        GameObject.Find("XR Origin").GetComponent<NavMestControll>().agent.enabled = true;
-    }
 }

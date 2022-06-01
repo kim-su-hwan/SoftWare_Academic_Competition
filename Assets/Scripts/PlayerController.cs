@@ -11,15 +11,4 @@ public class PlayerController : MonoBehaviour
         playerPosData = FindObjectOfType<SavePlayerPos>();
         playerPosData.PlayerPosLoad();
     }
-
-
-    // 임시
-    public void OnApplicationQuit()
-    {
-        PlayerPrefs.DeleteKey("p_x");
-        PlayerPrefs.DeleteKey("p_y");
-        PlayerPrefs.DeleteKey("p_z");
-        PlayerPrefs.DeleteKey("TimeToLoad");
-        PlayerPrefs.DeleteKey("Saved");
-    }
 }

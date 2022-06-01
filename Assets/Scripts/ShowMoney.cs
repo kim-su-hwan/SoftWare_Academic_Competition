@@ -11,10 +11,15 @@ public class ShowMoney : MonoBehaviour
         UpdateMoney();
     }
 
+    public void ReduceMoney(int money)
+    {
+        GameManager.instance.ReduceMoney(money);
+        UpdateMoney();
+    }
+
     public void UpdateMoney()
     {
-        if (GameManager.instance != null)
-            money.text = $"남은 돈 : {GameManager.instance.GetMoney()}";
+        money.text = $"남은 돈 : {GameManager.instance.GetMoney()}";   
     }
 
 

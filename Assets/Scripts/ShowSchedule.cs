@@ -22,7 +22,7 @@ public class ShowSchedule : MonoBehaviour
         }
         else if (dest.Count > 0)
         {
-            string name = player.GetComponent<NavMestControll>().Destinations.Peek();
+            string name = dest.Peek();
             schedule.text = BuildingName(name);
         }
     }

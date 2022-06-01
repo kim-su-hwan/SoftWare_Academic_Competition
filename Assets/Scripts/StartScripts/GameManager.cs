@@ -80,5 +80,4 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.DeleteKey("TimeToLoad");
         PlayerPrefs.DeleteKey("Saved");
     }
-
 }

@@ -55,7 +55,7 @@ public class ShowSchedule : MonoBehaviour
                 return "다음 스케쥴:\n영실관";
             case "youngdeok":
                 return "다음 스케쥴:\n용덕관";
-            case "jipheyon":
+            case "jiphyeon":
                 return "다음 스케쥴:\n집현관";
             default:
                 return null;

@@ -3160,7 +3160,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4287501076
+    rgba: 4282836447
   m_fontColor: {r: 0.8736899, g: 0.8962264, b: 0.2747864, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -3984,7 +3984,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &858950539
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6765,7 +6765,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: -262}
+  m_AnchoredPosition: {x: -1, y: -262}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1597547411
@@ -8935,7 +8935,7 @@ PrefabInstance:
     - target: {fileID: 3991118332041895529, guid: 7fac25a92d833c74aa88c37f671e2732,
         type: 3}
       propertyPath: m_RequestedTrackingOriginMode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3991118332041895530, guid: 7fac25a92d833c74aa88c37f671e2732,
         type: 3}

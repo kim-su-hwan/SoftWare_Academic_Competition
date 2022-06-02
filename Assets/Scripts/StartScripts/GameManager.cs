@@ -79,3 +79,5 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.DeleteKey("Saved");
     }
 }
+
+

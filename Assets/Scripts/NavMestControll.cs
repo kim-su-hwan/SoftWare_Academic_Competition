@@ -3,10 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-
-
-
-
 public class NavMestControll : MonoBehaviour
 {
     enum Building
@@ -54,18 +50,6 @@ public class NavMestControll : MonoBehaviour
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        //if (GameManager.instance != null)
-        //{
-        //    if (GameManager.instance.scheduleList.Count > 0)
-        //    {
-        //        destinations = GameManager.instance.scheduleList;
-        //        //foreach (var schedule in GameManager.instance.scheduleList)
-        //        //{
-        //        //    destinations.Enqueue(schedule);
-        //        //    //Debug.Log(schedule);
-        //        //}
-        //    }
-        //}
     }
 
     private void Update()
@@ -141,6 +125,5 @@ public class NavMestControll : MonoBehaviour
             default:
                 return null;
         }
-
     }
 }

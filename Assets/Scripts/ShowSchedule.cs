@@ -15,14 +15,14 @@ public class ShowSchedule : MonoBehaviour
 
     public void UpdateSchedule()
     {
-        Queue<string> dest = player.GetComponent<NavMestControll>().Destinations;
-        if (dest.Count == 0)
+        //Queue<string> dest = player.GetComponent<NavMestControll>().Destinations;
+        if (GameManager.instance.scheduleList.Count == 0)
         {
             schedule.text = "다음 스케쥴:";
         }
-        else if (dest.Count > 0)
+        else if (GameManager.instance.scheduleList.Count > 0)
         {
-            string name = dest.Peek();
+            string name = GameManager.instance.scheduleList.Peek();
             schedule.text = BuildingName(name);
         }
     }

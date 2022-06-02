@@ -54,17 +54,18 @@ public class NavMestControll : MonoBehaviour
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        if (GameManager.instance != null)
-        {
-            if (GameManager.instance.scheduleList.Count > 0)
-            {
-                foreach (var schedule in GameManager.instance.scheduleList)
-                {
-                    destinations.Enqueue(schedule);
-                    //Debug.Log(schedule);
-                }
-            }
-        }
+        //if (GameManager.instance != null)
+        //{
+        //    if (GameManager.instance.scheduleList.Count > 0)
+        //    {
+        //        destinations = GameManager.instance.scheduleList;
+        //        //foreach (var schedule in GameManager.instance.scheduleList)
+        //        //{
+        //        //    destinations.Enqueue(schedule);
+        //        //    //Debug.Log(schedule);
+        //        //}
+        //    }
+        //}
     }
 
     private void Update()
@@ -94,13 +95,13 @@ public class NavMestControll : MonoBehaviour
 
     public void MoveToNextDestination()
     {
-        if (destinations.Count == 0)
+        if (GameManager.instance.scheduleList.Count == 0)
             return;
 
-        if (destinations.Count > 0)
+        if (GameManager.instance.scheduleList.Count > 0)
         {
             isDoing = true;
-            name = destinations.Dequeue();
+            name = GameManager.instance.scheduleList.Dequeue();
             agent.SetDestination(BuildingName(name).transform.position);
         }
     }

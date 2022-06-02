@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     private List<string> iventory_name = new List<string>();
     private List<int> iventory_count = new List<int>();
 
-    [HideInInspector] public List<string> scheduleList = new List<string>();
+    [HideInInspector] public Queue<string> scheduleList = new Queue<string>();
 
     [HideInInspector] public static int money = 0;
 
@@ -67,7 +67,7 @@ public class GameManager : MonoBehaviour
 
     public void AddSchedule(string name)
     {
-        scheduleList.Add(name);
+        scheduleList.Enqueue(name);
     }
 
     public void OnApplicationQuit()

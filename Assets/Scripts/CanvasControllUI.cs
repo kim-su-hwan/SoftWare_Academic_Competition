@@ -9,6 +9,7 @@ public class CanvasControllUI : MonoBehaviour
     [SerializeField] private GameObject[] UISet;
     private Stack<int> uiIndex = new Stack<int>();
 
+
     private void Start()
     {
         foreach (var ui in UISet)

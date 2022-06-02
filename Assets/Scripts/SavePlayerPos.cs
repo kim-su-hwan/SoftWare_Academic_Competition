@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class SavePlayerPos : MonoBehaviour
 {
@@ -17,9 +18,17 @@ public class SavePlayerPos : MonoBehaviour
             pX = PlayerPrefs.GetFloat("p_x");
             pY = PlayerPrefs.GetFloat("p_y");
             pZ = PlayerPrefs.GetFloat("p_z");
+
+            player.GetComponent<CharacterController>().enabled = false;
+            player.GetComponent<NavMeshAgent>().enabled = false;
             player.transform.position = new Vector3(pX, pY, pZ);
+            player.GetComponent<CharacterController>().enabled = true;
+            player.GetComponent<NavMeshAgent>().enabled = true;
+
             PlayerPrefs.SetInt("TimeToLoad", 0);
             PlayerPrefs.Save();
+
+            Debug.Log("Load " + new Vector3(pX, pY, pZ));
         }
     }
 
@@ -30,6 +39,8 @@ public class SavePlayerPos : MonoBehaviour
         PlayerPrefs.SetFloat("p_z", player.transform.position.z);
         PlayerPrefs.SetInt("Saved", 1);
         PlayerPrefs.Save();
+
+        Debug.Log("Save " + new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z));
     }
 
     public void PlayerPosLoad()
